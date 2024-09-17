@@ -1,0 +1,724 @@
+#Maxim Feinberg
+#20357414
+#September 17th 2024
+
+#I confirm that this submission is my own work and is consistent with the Queen's regulations on Academic Integrity. 
+
+RUN 1: 2 IO/worker and 50 CPU workers:
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+(base) maxfeinberg@Maxs-MacBook-Pro Cisc324-F24-main % /usr/bin/python3 /Users/maxfeinberg/Downloads/Cisc324-F24-main/Lab1/lab1-Q4.py
+
+ -- Initial CPU usage: 3.2% 
+
+Demonstrating an I/O-bound task
+Process IO-Worker-0 (PID: 44527) is starting (I/O-bound task)...
+Process IO-Worker-0 is entering system mode by a system-call
+Process IO-Worker-0 is running on a Unix-like OS. Listing directory:
+Demonstrating a CPU-bound task
+Process CPU-Worker-0 with PID 44529 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-1 with PID 44530 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-3 with PID 44532 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-4 with PID 44533 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-2 with PID 44531 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-5 with PID 44534 is starting CPU-bound task..
+Demonstrating an I/O-bound task
+Process IO-Worker-1 (PID: 44528) is starting (I/O-bound task)...
+Process IO-Worker-1 is entering system mode by a system-call
+Process IO-Worker-1 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-1 is waiting for more I/O simulated by sleep
+Process CPU-Worker-0 with PID 44529 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-3 with PID 44532 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-4 with PID 44533 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-2 with PID 44531 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-7 with PID 44536 is starting CPU-bound task..
+Process CPU-Worker-1 with PID 44530 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-11 with PID 44540 is starting CPU-bound task..
+Lab1
+Demonstrating a CPU-bound task
+Process CPU-Worker-9 with PID 44538 is starting CPU-bound task..
+Process CPU-Worker-5 with PID 44534 has finished CPU-bound task with result 499998500001
+Process IO-Worker-0 is waiting for more I/O simulated by sleep
+Process CPU-Worker-11 with PID 44540 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-7 with PID 44536 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-9 with PID 44538 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-6 with PID 44535 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-10 with PID 44539 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-16 with PID 44546 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-15 with PID 44544 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-19 with PID 44550 is starting CPU-bound task..
+Process CPU-Worker-15 with PID 44544 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-20 with PID 44551 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-22 with PID 44553 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-23 with PID 44554 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-28 with PID 44559 is starting CPU-bound task..
+Process CPU-Worker-28 with PID 44559 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-26 with PID 44557 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-12 with PID 44541 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-8 with PID 44537 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-14 with PID 44543 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-17 with PID 44548 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-18 with PID 44549 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-30 with PID 44561 is starting CPU-bound task..
+Process CPU-Worker-10 with PID 44539 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-13 with PID 44542 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-21 with PID 44552 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-29 with PID 44560 is starting CPU-bound task..
+Process CPU-Worker-6 with PID 44535 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-23 with PID 44554 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-32 with PID 44563 is starting CPU-bound task..
+Process CPU-Worker-19 with PID 44550 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-39 with PID 44570 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-27 with PID 44558 is starting CPU-bound task..
+Process CPU-Worker-8 with PID 44537 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-37 with PID 44568 is starting CPU-bound task..
+Process CPU-Worker-16 with PID 44546 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-38 with PID 44569 is starting CPU-bound task..
+Process CPU-Worker-13 with PID 44542 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-26 with PID 44557 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-14 with PID 44543 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-20 with PID 44551 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-33 with PID 44564 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-35 with PID 44566 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-31 with PID 44562 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-25 with PID 44556 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-34 with PID 44565 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-44 with PID 44575 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-45 with PID 44576 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-46 with PID 44577 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-24 with PID 44555 is starting CPU-bound task..
+Process CPU-Worker-12 with PID 44541 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-43 with PID 44574 is starting CPU-bound task..
+Demonstrating a CPU-bound task
+Process CPU-Worker-36 with PID 44567 is starting CPU-bound task..
+Process CPU-Worker-37 with PID 44568 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-29 with PID 44560 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-18 with PID 44549 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-22 with PID 44553 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-42 with PID 44573 is starting CPU-bound task..
+Process CPU-Worker-25 with PID 44556 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-48 with PID 44579 is starting CPU-bound task..
+Process CPU-Worker-38 with PID 44569 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-30 with PID 44561 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-40 with PID 44571 is starting CPU-bound task..
+Process CPU-Worker-42 with PID 44573 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-32 with PID 44563 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-49 with PID 44580 is starting CPU-bound task..
+Process CPU-Worker-24 with PID 44555 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-41 with PID 44572 is starting CPU-bound task..
+Process CPU-Worker-35 with PID 44566 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-17 with PID 44548 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-31 with PID 44562 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-39 with PID 44570 has finished CPU-bound task with result 499998500001
+Demonstrating a CPU-bound task
+Process CPU-Worker-47 with PID 44578 is starting CPU-bound task..
+Process CPU-Worker-33 with PID 44564 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-41 with PID 44572 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-45 with PID 44576 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-27 with PID 44558 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-34 with PID 44565 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-21 with PID 44552 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-40 with PID 44571 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-44 with PID 44575 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-49 with PID 44580 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-36 with PID 44567 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-48 with PID 44579 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-46 with PID 44577 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-43 with PID 44574 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-47 with PID 44578 has finished CPU-bound task with result 499998500001
+Process IO-Worker-1 with PID 44528 has finished I/O-bound task
+Process IO-Worker-0 with PID 44527 has finished I/O-bound task
+
+ -- Initial CPU usage: 12.4% 
+
+ All processes finished. Total execution time: 7.133280992507935 seconds
+
+ ---------------------------------------------------------------------------------------------
+
+ RUN 2: 75 I/O workers and 2 CPU workers: 
+
+  -- Initial CPU usage: 12.2% 
+
+Demonstrating an I/O-bound task
+Process IO-Worker-0 (PID: 44709) is starting (I/O-bound task)...
+Process IO-Worker-0 is entering system mode by a system-call
+Process IO-Worker-0 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-2 (PID: 44711) is starting (I/O-bound task)...
+Process IO-Worker-2 is entering system mode by a system-call
+Process IO-Worker-2 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-2 is waiting for more I/O simulated by sleep
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-5 (PID: 44714) is starting (I/O-bound task)...
+Process IO-Worker-5 is entering system mode by a system-call
+Process IO-Worker-5 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-0 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-5 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-6 (PID: 44715) is starting (I/O-bound task)...
+Process IO-Worker-6 is entering system mode by a system-call
+Process IO-Worker-6 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-1 (PID: 44710) is starting (I/O-bound task)...
+Process IO-Worker-1 is entering system mode by a system-call
+Process IO-Worker-1 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-4 (PID: 44713) is starting (I/O-bound task)...
+Process IO-Worker-4 is entering system mode by a system-call
+Process IO-Worker-4 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-6 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-3 (PID: 44712) is starting (I/O-bound task)...
+Process IO-Worker-3 is entering system mode by a system-call
+Process IO-Worker-3 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-1 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-4 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-11 (PID: 44720) is starting (I/O-bound task)...
+Process IO-Worker-11 is entering system mode by a system-call
+Process IO-Worker-11 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-3 is waiting for more I/O simulated by sleep
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-12 (PID: 44721) is starting (I/O-bound task)...
+Process IO-Worker-12 is entering system mode by a system-call
+Process IO-Worker-12 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-11 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-12 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-9 (PID: 44718) is starting (I/O-bound task)...
+Process IO-Worker-9 is entering system mode by a system-call
+Process IO-Worker-9 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-16 (PID: 44726) is starting (I/O-bound task)...
+Process IO-Worker-16 is entering system mode by a system-call
+Process IO-Worker-16 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-8 (PID: 44717) is starting (I/O-bound task)...
+Process IO-Worker-8 is entering system mode by a system-call
+Process IO-Worker-8 is running on a Unix-like OS. Listing directory:
+Lab1
+Lab1
+Process IO-Worker-16 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-7 (PID: 44716) is starting (I/O-bound task)...
+Process IO-Worker-7 is entering system mode by a system-call
+Process IO-Worker-7 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-9 is waiting for more I/O simulated by sleep
+Process IO-Worker-8 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-7 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-10 (PID: 44719) is starting (I/O-bound task)...
+Process IO-Worker-10 is entering system mode by a system-call
+Process IO-Worker-10 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-29 (PID: 44747) is starting (I/O-bound task)...
+Process IO-Worker-29 is entering system mode by a system-call
+Process IO-Worker-29 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-15 (PID: 44725) is starting (I/O-bound task)...
+Process IO-Worker-15 is entering system mode by a system-call
+Process IO-Worker-15 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-14 (PID: 44724) is starting (I/O-bound task)...
+Process IO-Worker-14 is entering system mode by a system-call
+Process IO-Worker-14 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-10 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-30 (PID: 44748) is starting (I/O-bound task)...
+Process IO-Worker-30 is entering system mode by a system-call
+Process IO-Worker-30 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-24 (PID: 44739) is starting (I/O-bound task)...
+Process IO-Worker-24 is entering system mode by a system-call
+Process IO-Worker-24 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-21 (PID: 44733) is starting (I/O-bound task)...
+Process IO-Worker-21 is entering system mode by a system-call
+Process IO-Worker-21 is running on a Unix-like OS. Listing directory:
+Lab1
+Lab1
+Process IO-Worker-15 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-29 is waiting for more I/O simulated by sleep
+Process IO-Worker-14 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-30 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-13 (PID: 44722) is starting (I/O-bound task)...
+Process IO-Worker-13 is entering system mode by a system-call
+Process IO-Worker-13 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-27 (PID: 44743) is starting (I/O-bound task)...
+Process IO-Worker-27 is entering system mode by a system-call
+Process IO-Worker-27 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-37 (PID: 44759) is starting (I/O-bound task)...
+Process IO-Worker-37 is entering system mode by a system-call
+Process IO-Worker-37 is running on a Unix-like OS. Listing directory:
+Lab1
+Lab1
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-19 (PID: 44730) is starting (I/O-bound task)...
+Process IO-Worker-19 is entering system mode by a system-call
+Process IO-Worker-19 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-23 (PID: 44737) is starting (I/O-bound task)...
+Process IO-Worker-23 is entering system mode by a system-call
+Process IO-Worker-23 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-21 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-18 (PID: 44729) is starting (I/O-bound task)...
+Process IO-Worker-18 is entering system mode by a system-call
+Process IO-Worker-18 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-13 is waiting for more I/O simulated by sleep
+Process IO-Worker-27 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-25 (PID: 44740) is starting (I/O-bound task)...
+Process IO-Worker-25 is entLab1
+ering system mode by a system-call
+Process IO-Worker-25 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-24 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-26 (PID: 44742) is starting (I/O-bound task)...
+Process IO-Worker-26 is entering system mode by a system-call
+Process IO-Worker-26 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-20 (PID: 44731) is starting (I/O-bound task)...
+Process IO-Worker-20 is entering system mode by a system-call
+Process IO-Worker-20 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-17 (PID: 44728) is starting (I/O-bound task)...
+Process IO-Worker-17 is entering system mode by a system-call
+Process IO-Worker-17 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-22 (PID: 44734) is starting (I/O-bound task)...
+Process IO-Worker-22 is entering system mode by a system-call
+Process IO-Worker-22 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-40 (PID: 44763) is starting (I/O-bound task)...
+Process IO-Worker-40 is entering system mode by a system-call
+Process IO-Worker-40 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-38 (PID: 44760) is starting (I/O-bound task)...
+Process IO-Worker-38 is entering system mode by a system-call
+Process IO-Worker-38 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-28 (PID: 44745) is starting (I/O-bound task)...
+Demonstrating an I/O-bound task
+Process IO-Worker-28 is entering system mode by a system-call
+Process IO-Worker-28 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-41 (PID: 44764) is starting (I/O-bound task)...
+Process IO-Worker-41 is entering system mode by a system-call
+Process IO-Worker-41 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-37 is waiting for more I/O simulated by sleep
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-31 (PID: 44750) is starting (I/O-bound task)...
+Process IO-Worker-31 is entering system mode by a system-call
+Process IO-Worker-31 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-32 (PID: 44753) is starting (I/O-bound task)...
+Process IO-Worker-32 is entering system mode by a system-call
+Process IO-Worker-32 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-33 (PID: 44755) is starting (I/O-bound task)...
+Process IO-Worker-33 is entering system mode by a system-call
+Process IO-Worker-33 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-36 (PID: 44758) is starting (I/O-bound task)...
+Process IO-Worker-36 is entering system mode by a system-call
+Process IO-Worker-36 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-35 (PID: 44757) is starting (I/O-bounProcess IO-Worker-23 is waiting for more I/O simulated by sleep
+d task)...
+Demonstrating an I/O-bound task
+Process IO-Worker-35 is entering system mode by a system-call
+Process IO-Worker-35 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-34 (PID: 44756) is starting (I/O-bound task)...
+Process IO-Worker-34 is entering system mode by a system-call
+Process IO-Worker-34 is running on a Unix-like OS. Listing directory:
+Lab1
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-43 (PID: 44768) is starting (I/O-bound task)...
+Process IO-Worker-43 is entering system mode by a system-call
+Process IO-Worker-43 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-19 is waiting for more I/O simulated by sleep
+Process IO-Worker-18 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-44 (PID: 44772) is starting (I/O-bound task)...
+Process IO-Worker-44 is entering system mode by a system-call
+Process IO-Worker-44 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-26 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-39 (PID: 44761) is starting (I/O-bound task)...
+Process IO-Worker-39 is entering system mode by a system-call
+Process IO-Worker-39 is running on a Unix-like OS. Listing directory:
+Lab1
+Lab1
+Lab1
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-42 (PID: 44767) is starting (I/O-bound task)...
+Process IO-Worker-42 is entering system mode by a system-call
+Process IO-Worker-42 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-45 (PID: 44774) is starting (I/O-bound task)...
+Process IO-Worker-45 is entering system mode by a system-call
+Process IO-Worker-45 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-40 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-32 is waiting for more I/O simulated by sleep
+Process IO-Worker-28 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-20 is waiting for more I/O simulated by sleep
+Process IO-Worker-22 is waiting for more I/O simulated by sleep
+Process IO-Worker-33 is waiting for more I/O simulated by sleep
+Process IO-Worker-36 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-38 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-35 is waiting for more I/O simulated by sleep
+Lab1
+Lab1
+Lab1
+Lab1
+Lab1
+Lab1
+Process IO-Worker-43 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-25 is waiting for more I/O simulated by sleep
+Process IO-Worker-34 is waiting for more I/O simulated by sleep
+Process IO-Worker-42 is waiting for more I/O simulated by sleep
+Process IO-Worker-17 is waiting for more I/O simulated by sleep
+Process IO-Worker-31 is waiting for more I/O simulated by sleep
+Process IO-Worker-44 is waiting for more I/O simulated by sleep
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-46 (PID: 44781) is starting (I/O-bound task)...
+Process IO-Worker-46 is entering system mode by a system-call
+Process IO-Worker-46 is running on a Unix-like OS. Listing directory:
+Lab1
+Lab1
+Process IO-Worker-39 is waiting for more I/O simulated by sleep
+Process IO-Worker-41 is waiting for more I/O simulated by sleep
+Process IO-Worker-45 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-46 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-50 (PID: 44791) is starting (I/O-bound task)...
+Process IO-Worker-50 is entering system mode by a system-call
+Process IO-Worker-50 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-47 (PID: 44782) is starting (I/O-bound task)...
+Process IO-Worker-47 is entering system mode by a system-call
+Process IO-Worker-47 is running on a Unix-like OS. Listing directory:
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-49 (PID: 44787) is starting (I/O-bound task)...
+Process IO-Worker-49 is entering system mode by a system-call
+Process IO-Worker-49 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-47 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-51 (PID: 44792) is starting (I/O-bound task)...
+Process IO-Worker-51 is entering system mode by a system-call
+Process IO-Worker-51 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-50 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-58 (PID: 44813) is starting (I/O-bound task)...
+Process IO-Worker-58 is entering system mode by a system-call
+Process IO-Worker-58 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-66 (PID: 44822) is starting (I/O-bound task)...
+Process IO-Worker-66 is entering system mode by a system-call
+Process IO-Worker-66 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-51 is waiting for more I/O simulated by sleep
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-57 (PID: 44812) is starting (I/O-bound task)...
+Process IO-Worker-57 is entering system mode by a system-call
+Process IO-Worker-57 is running on a Unix-like OS. Listing directory:
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-54 (PID: 44807) is starting (I/O-bound task)...
+Process IO-Worker-54 is entering system mode by a system-call
+Process IO-Worker-54 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-55 (PID: 44808) is starting (I/O-bound task)...
+Process IO-Worker-55 is entering system mode by a system-call
+Process IO-Worker-55 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-66 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-56 (PID: 44810) is starting (I/O-bound task)...
+Process IO-Worker-56 is entering system mode by a system-call
+Process IO-Worker-56 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-58 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-61 (PID: 44816) is starting (I/O-bound task)...
+Process IO-Worker-61 is entering system mode by a system-call
+Process IO-Worker-61 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-64 (PID: 44819) is starting (I/O-bound task)...
+Process IO-Worker-64 is entering system mode by a system-call
+Process IO-Worker-64 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-59 (PID: 44814) is starting (I/O-bound task)...
+Process IO-Worker-59 is entering system mode by a system-call
+Process IO-Worker-59 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-63 (PID: 44818) is starting (I/O-bound task)...
+Process IO-Worker-63 is entering system mode by a system-call
+Process IO-Worker-63 is running on a Unix-like OS. Listing directory:
+Lab1
+Lab1
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-62 (PID: 44817) is starting (I/O-bound task)...
+Process IO-Worker-62 is entering system mode by a system-call
+Process IO-Worker-62 is running on a Unix-like OS. Listing directory:
+Lab1
+Lab1
+Lab1
+Lab1
+Lab1
+Lab1
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-48 (PID: 44786) is starting (I/O-bound task)...
+Process IO-Worker-48 is entering system mode by a system-call
+Process IO-Worker-48 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-56 is waiting for more I/O simulated by sleep
+Process IO-Worker-55 is waiting for more I/O simulated by sleep
+Process IO-Worker-54 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-52 (PID: 44796) is starting (I/O-bound task)...
+Process IO-Worker-52 is entering system mode by a system-call
+Process IO-Worker-52 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-49 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-53 (PID: 44806) is starting (I/O-bound task)...
+Process IO-Worker-53 is entering system mode by a system-call
+Process IO-Worker-53 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-62 is waiting for more I/O simulated by sleep
+Process IO-Worker-59 is waiting for more I/O simulated by sleep
+Process IO-Worker-57 is waiting for more I/O simulated by sleep
+Process IO-Worker-63 is waiting for more I/O simulated by sleep
+Process IO-Worker-61 is waiting for more I/O simulated by sleep
+Process IO-Worker-64 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-67 (PID: 44823) is starting (I/O-bound task)...
+Process IO-Worker-67 is entering system mode by a system-call
+Process IO-Worker-67 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-53 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-48 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-52 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-60 (PID: 44815) is starting (I/O-bound task)...
+Process IO-Worker-60 is entering system mode by a system-call
+Process IO-Worker-60 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-70 (PID: 44828) is starting (I/O-bound task)...
+Process IO-Worker-70 is entering system mode by a system-call
+Process IO-Worker-70 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-72 (PID: 44830) is starting (I/O-bound task)...
+Process IO-Worker-72 is entering system mode by a system-call
+Process IO-Worker-72 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-67 is waiting for more I/O simulated by sleep
+Lab1
+Demonstrating an I/O-bound task
+Process IO-Worker-73 (PID: 44831) is starting (I/O-bound task)...
+Process IO-Worker-73 is entering system mode by a system-call
+Process IO-Worker-73 is running on a Unix-like OS. Listing directory:
+Demonstrating an I/O-bound task
+Process IO-Worker-71 (PID: 44829) is starting (I/O-bound task)...
+Process IO-Worker-71 is entering system mode by a system-call
+Process IO-Worker-71 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-60 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-69 (PID: 44826) is starting (I/O-bound task)...
+Process IO-Worker-69 is entering system mode by a system-call
+Process IO-Worker-69 is running on a Unix-like OS. Listing directory:
+Process IO-Worker-70 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-74 (PID: 44836) is starting (I/O-bound task)...
+Process IO-Worker-74 is entering system mode by a system-call
+Process IO-Worker-74 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-72 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-73 is waiting for more I/O simulated by sleep
+Lab1
+Lab1
+Process IO-Worker-69 is waiting for more I/O simulated by sleep
+Process IO-Worker-71 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-65 (PID: 44820) is starting (I/O-bound task)...
+Process IO-Worker-65 is entering system mode by a system-call
+Process IO-Worker-65 is running on a Unix-like OS. Listing directory:
+Lab1
+Process IO-Worker-74 is waiting for more I/O simulated by sleep
+Demonstrating an I/O-bound task
+Process IO-Worker-68 (PID: 44824) is starting (I/O-bound task)...
+Process IO-Worker-68 is entering system mode by a system-call
+Process IO-Worker-68 is running on a Unix-like OS. Listing directory:
+Demonstrating a CPU-bound task
+Process CPU-Worker-0 with PID 44837 is starting CPU-bound task..
+Lab1
+Process IO-Worker-65 is waiting for more I/O simulated by sleep
+Lab1
+Process IO-Worker-68 is waiting for more I/O simulated by sleep
+Demonstrating a CPU-bound task
+Process CPU-Worker-1 with PID 44842 is starting CPU-bound task..
+Process CPU-Worker-0 with PID 44837 has finished CPU-bound task with result 499998500001
+Process CPU-Worker-1 with PID 44842 has finished CPU-bound task with result 499998500001
+Process IO-Worker-2 with PID 44711 has finished I/O-bound task
+Process IO-Worker-0 with PID 44709 has finished I/O-bound task
+Process IO-Worker-5 with PID 44714 has finished I/O-bound task
+Process IO-Worker-6 with PID 44715 has finished I/O-bound task
+Process IO-Worker-4 with PID 44713 has finished I/O-bound task
+Process IO-Worker-1 with PID 44710 has finished I/O-bound task
+Process IO-Worker-3 with PID 44712 has finished I/O-bound task
+Process IO-Worker-11 with PID 44720 has finished I/O-bound task
+Process IO-Worker-12 with PID 44721 has finished I/O-bound task
+Process IO-Worker-16 with PID 44726 has finished I/O-bound task
+Process IO-Worker-9 with PID 44718 has finished I/O-bound task
+Process IO-Worker-8 with PID 44717 has finished I/O-bound task
+Process IO-Worker-7 with PID 44716 has finished I/O-bound task
+Process IO-Worker-10 with PID 44719 has finished I/O-bound task
+Process IO-Worker-15 with PID 44725 has finished I/O-bound task
+Process IO-Worker-14 with PID 44724 has finished I/O-bound task
+Process IO-Worker-29 with PID 44747 has finished I/O-bound task
+Process IO-Worker-30 with PID 44748 has finished I/O-bound task
+Process IO-Worker-21 with PID 44733 has finished I/O-bound task
+Process IO-Worker-27 with PID 44743 has finished I/O-bound task
+Process IO-Worker-13 with PID 44722 has finished I/O-bound task
+Process IO-Worker-24 with PID 44739 has finished I/O-bound task
+Process IO-Worker-37 with PID 44759 has finished I/O-bound task
+Process IO-Worker-23 with PID 44737 has finished I/O-bound task
+Process IO-Worker-18 with PID 44729 has finished I/O-bound task
+Process IO-Worker-19 with PID 44730 has finished I/O-bound task
+Process IO-Worker-26 with PID 44742 has finished I/O-bound task
+Process IO-Worker-40 with PID 44763 has finished I/O-bound task
+Process IO-Worker-32 with PID 44753 has finished I/O-bound task
+Process IO-Worker-28 with PID 44745 has finished I/O-bound task
+Process IO-Worker-20 with PID 44731 has finished I/O-bound task
+Process IO-Worker-33 with PID 44755 has finished I/O-bound task
+Process IO-Worker-36 with PID 44758 has finished I/O-bound task
+Process IO-Worker-38 with PID 44760 has finished I/O-bound task
+Process IO-Worker-35 with PID 44757 has finished I/O-bound task
+Process IO-Worker-22 with PID 44734 has finished I/O-bound task
+Process IO-Worker-43 with PID 44768 has finished I/O-bound task
+Process IO-Worker-25 with PID 44740 has finished I/O-bound task
+Process IO-Worker-34 with PID 44756 has finished I/O-bound task
+Process IO-Worker-42 with PID 44767 has finished I/O-bound task
+Process IO-Worker-17 with PID 44728 has finished I/O-bound task
+Process IO-Worker-31 with PID 44750 has finished I/O-bound task
+Process IO-Worker-44 with PID 44772 has finished I/O-bound task
+Process IO-Worker-41 with PID 44764 has finished I/O-bound task
+Process IO-Worker-45 with PID 44774 has finished I/O-bound task
+Process IO-Worker-39 with PID 44761 has finished I/O-bound task
+Process IO-Worker-46 with PID 44781 has finished I/O-bound task
+Process IO-Worker-47 with PID 44782 has finished I/O-bound task
+Process IO-Worker-50 with PID 44791 has finished I/O-bound task
+Process IO-Worker-51 with PID 44792 has finished I/O-bound task
+Process IO-Worker-66 with PID 44822 has finished I/O-bound task
+Process IO-Worker-58 with PID 44813 has finished I/O-bound task
+Process IO-Worker-56 with PID 44810 has finished I/O-bound task
+Process IO-Worker-54 with PID 44807 has finished I/O-bound task
+Process IO-Worker-55 with PID 44808 has finished I/O-bound task
+Process IO-Worker-49 with PID 44787 has finished I/O-bound task
+Process IO-Worker-57 with PID 44812 has finished I/O-bound task
+Process IO-Worker-61 with PID 44816 has finished I/O-bound task
+Process IO-Worker-64 with PID 44819 has finished I/O-bound task
+Process IO-Worker-62 with PID 44817 has finished I/O-bound task
+Process IO-Worker-63 with PID 44818 has finished I/O-bound task
+Process IO-Worker-59 with PID 44814 has finished I/O-bound task
+Process IO-Worker-48 with PID 44786 has finished I/O-bound task
+Process IO-Worker-53 with PID 44806 has finished I/O-bound task
+Process IO-Worker-52 with PID 44796 has finished I/O-bound task
+Process IO-Worker-60 with PID 44815 has finished I/O-bound task
+Process IO-Worker-67 with PID 44823 has finished I/O-bound task
+Process IO-Worker-70 with PID 44828 has finished I/O-bound task
+Process IO-Worker-73 with PID 44831 has finished I/O-bound task
+Process IO-Worker-69 with PID 44826 has finished I/O-bound task
+Process IO-Worker-71 with PID 44829 has finished I/O-bound task
+Process IO-Worker-74 with PID 44836 has finished I/O-bound task
+Process IO-Worker-72 with PID 44830 has finished I/O-bound task
+Process IO-Worker-65 with PID 44820 has finished I/O-bound task
+Process IO-Worker-68 with PID 44824 has finished I/O-bound task
+
+ -- Initial CPU usage: 14.8% 
+
+All processes finished. Total execution time: 8.907147216796875 seconds
